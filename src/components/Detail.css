@@ -1,0 +1,58 @@
+.detail{
+       display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    overflow: hidden;
+}
+
+.exit>a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.det-sec{
+    display: flex;
+    gap: 150px;
+}
+
+.left>img{
+    width: 600px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+    /* padding-right: 50px; */
+}
+
+.right>h1,p,h5{
+    margin: 0;
+}
+.right>p{
+    font-size: 20px;
+}
+.right>h5{
+    font-size: 20px;
+}
+
+.right>button{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 40px;
+    border-radius: 8px;
+}
+
+
+.exit{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+}
